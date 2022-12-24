@@ -1,3 +1,9 @@
+body{
+    background-color: rgb(12, 12, 14);
+}
 div{
     text-align: center;
+}
+p{
+    color: rgb(223, 213, 213);
 }
