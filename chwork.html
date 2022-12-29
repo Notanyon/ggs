@@ -3,12 +3,25 @@
     <head>
         <title>Access Classwork/homework</title>
         <link rel="stylesheet" type="text/css" href="./style.css"/>
+        <script>
+            function validateForm() {
+              let x = document.forms["myForm"]["Key"].value;
+              if (x != "alohmara") {
+                alert("KEY is incorrect");
+                return false;
+              }
+              else{
+                return true
+              }
+            }
+            </script>
     </head>
     <body>
         <h1>Access Classwork/homework</h1>
-        <p>To access classwork/homework you will have to buy a username and password and enter it in the below given form. If you don't have username and password kindly buy that from the inventor of the website by contacting him on <a href = "mailto:vishnukarma1111@gmail.com">vishnukarma1111@gmail.com</a></p>
-        <form>
-            
-        </form>
+        <p>To access classwork/homework you will have to buy a <b>KEY</b> and enter it in the below given form. If you don't have <b>KEY</b> kindly buy that from the inventor of the website by contacting him on <a href = "mailto:vishnukarma1111@gmail.com">vishnukarma1111@gmail.com</a></p>
+        <form name="myForm" action="index.html" onsubmit="return validateForm()" method="post">
+            Enter key: <input type="text" name="Key">
+            <input type="submit" value="Submit">
+            </form>
     </body>
 </html>
