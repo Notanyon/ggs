@@ -1,10 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Science NOTES</title>
+        <title>English summary</title>
         <link rel="stylesheet" type="text/css" href="./style.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script>
+            function validateForm() {
+              valid=true
+              let i = "crucio";
+              let a = "tonks";
+              let x = document.forms["myForm"]["Key"].value;
+              if (x != i) {
+                alert("KEY is incorrect");
+                valid=false;
+                exit();
+              } else if (x != a) {
+                alert("KEY is incorrect");
+                valid=false;
+                exit();
+              }
+              return valid
+              
+            }
+        </script>
     </head>
     <body>
-        
+        <h1>English summary</h1>
+        <p>To access English summary you will have to buy a <b>KEY</b> and enter it in the below given form. If you don't have <b>KEY</b> kindly buy that from the inventor of the website by contacting him on <a href = "mailto:vishnukarma1111@gmail.com">vishnukarma1111@gmail.com</a></p>
+        <form name="myForm" action="/try.html" onsubmit="return validateForm()" method="post">
+            <p>Enter key: </p><input type="text" name="Key">
+            <input type="submit" value="Submit">
+        </form>
     </body>
 </html>

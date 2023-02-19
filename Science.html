@@ -1,10 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Science NOTES</title>
+        <title>Science notes</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" type="text/css" href="./style.css"/>
+        <script>
+            function validateForm() {
+              valid=true
+              let i = "lupin";
+              let a = "troll";
+              let x = document.forms["myForm"]["Key"].value;
+              if (x != i) {
+                alert("KEY is incorrect");
+                valid=false;
+              } else if (x != a) {
+                alert("KEY is incorrect");
+                valid=false;
+              }
+              return valid
+            }
+        </script>
     </head>
     <body>
-        
+        <h1>Science notes</h1>
+        <p>To access Science notes you will have to buy a <b>KEY</b> and enter it in the below given form. If you don't have <b>KEY</b> kindly buy that from the inventor of the website by contacting him on <a href = "mailto:vishnukarma1111@gmail.com">vishnukarma1111@gmail.com</a></p>
+        <form name="myForm" action="/science_notes.html" onsubmit="return validateForm()" method="post">
+            <p>Enter key: </p><input type="text" name="Key">
+            <input type="submit" value="Submit">
+        </form>
     </body>
 </html>

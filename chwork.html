@@ -2,18 +2,24 @@
 <html>
     <head>
         <title>Access Classwork/homework</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" type="text/css" href="./style.css"/>
         <script>
             function validateForm() {
               valid=true
+              let i = "crucio";
+              let a = "tonks";
               let x = document.forms["myForm"]["Key"].value;
-              if (x != "alohmara") {
+              if (x != i) {
+                alert("KEY is incorrect");
+                valid=false;
+              } else if (x != a) {
                 alert("KEY is incorrect");
                 valid=false;
               }
               return valid
             }
-            </script>
+        </script>
     </head>
     <body>
         <h1>Access Classwork/homework</h1>
