@@ -9,6 +9,14 @@ const sc_8_8_key = ""; // Replace with your actual key
 const sc_8_9_key = ""; // Replace with your actual key
 const sc_8_10_key = ""; // Replace with your actual key
 const sc_8_11_key = ""; // Replace with your actual key
+const sc_8_12_key = ""; // Replace with your actual key
+const sc_8_13_key = ""; // Replace with your actual key
+const sc_8_14_key = ""; // Replace with your actual key
+const sc_8_15_key = ""; // Replace with your actual key
+const sc_8_16_key = ""; // Replace with your actual key
+const sc_8_17_key = ""; // Replace with your actual key
+const sc_8_18_key = ""; // Replace with your actual key
+
 function sc_8_1() {
   const keyInput = document.getElementById("keyInput").value;
 
@@ -143,6 +151,97 @@ function sc_8_11() {
   const keyInput = document.getElementById("keyInput").value;
 
   if (keyInput === sc_8_11_key) {
+    alert("Key is valid!");
+    
+    // Do something else here if key is valid
+  } else {
+    alert("Invalid key!");
+    location.reload();
+    // Do something else here if key is invalid
+  }
+}
+function sc_8_12() {
+  const keyInput = document.getElementById("keyInput").value;
+
+  if (keyInput === sc_8_12_key) {
+    alert("Key is valid!");
+    
+    // Do something else here if key is valid
+  } else {
+    alert("Invalid key!");
+    location.reload();
+    // Do something else here if key is invalid
+  }
+}
+function sc_8_13() {
+  const keyInput = document.getElementById("keyInput").value;
+
+  if (keyInput === sc_8_13_key) {
+    alert("Key is valid!");
+    
+    // Do something else here if key is valid
+  } else {
+    alert("Invalid key!");
+    location.reload();
+    // Do something else here if key is invalid
+  }
+}
+function sc_8_14() {
+  const keyInput = document.getElementById("keyInput").value;
+
+  if (keyInput === sc_8_14_key) {
+    alert("Key is valid!");
+    
+    // Do something else here if key is valid
+  } else {
+    alert("Invalid key!");
+    location.reload();
+    // Do something else here if key is invalid
+  }
+}
+function sc_8_15() {
+  const keyInput = document.getElementById("keyInput").value;
+
+  if (keyInput === sc_8_15_key) {
+    alert("Key is valid!");
+    
+    // Do something else here if key is valid
+  } else {
+    alert("Invalid key!");
+    location.reload();
+    // Do something else here if key is invalid
+  }
+}
+function sc_8_16() {
+  const keyInput = document.getElementById("keyInput").value;
+
+  if (keyInput === sc_8_16_key) {
+    alert("Key is valid!");
+    
+    // Do something else here if key is valid
+  } else {
+    alert("Invalid key!");
+    location.reload();
+    // Do something else here if key is invalid
+  }
+}
+function sc_8_17() {
+  const keyInput = document.getElementById("keyInput").value;
+
+  if (keyInput === sc_8_17_key) {
+    alert("Key is valid!");
+    
+    // Do something else here if key is valid
+  } else {
+    alert("Invalid key!");
+    location.reload();
+    // Do something else here if key is invalid
+  }
+}
+function sc_8_18() {
+  const keyInput = document.getElementById("keyInput").value;
+
+  if (keyInput === sc_8_18_key) {
     alert("Key is valid!");
     
     // Do something else here if key is valid
